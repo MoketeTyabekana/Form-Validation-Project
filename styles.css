@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6)30%, rgba(0, 0, 0, 0.6)30%),url("img/background_image.jpg"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705)30%, rgba(0, 0, 0, 0.705)30%),url("img/background_image .jpg"); 
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -9,9 +9,9 @@ body {
     max-width: 400px;
     margin: 100px auto; /* Change the value of margin */
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid  #2e2e2e;
     border-radius: 5px;
-    background-color: #292929;
+    background-color: #2929299a;
     height: 60%;
 }
 
@@ -30,22 +30,36 @@ input:focus{
 
 input[type="submit"] {
     background-color: #fdad00;
-    color: white;
-    margin-top: 5px;
+    color: #292929;
+    margin-top: 16px;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: right;
+    float: left;
+    width: 150px;
+    font-weight: bold;
+    font-size: 16px;
     
 }
 input[type="submit"]:hover {
-    background-color: #d88200;
+    background-color: #fff;
 }
 .error {
     color: red;
 }
 
-label, h2{
+label{
     color:#fff;
+}
+
+h2{
+    color: #fdad00;
+}
+
+.line{
+    background-color:#fdad00;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
